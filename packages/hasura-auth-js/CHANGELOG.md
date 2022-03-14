@@ -1,5 +1,13 @@
 # @nhost/hasura-auth-js
 
+## 0.1.15
+
+### Patch Changes
+
+- 8f7643a: Change target ES module build target to es2019
+  Some systems based on older versions of Webpack or Babel don't support the current esbuild configuration e.g, [this issue](https://github.com/nhost/nhost/issues/275).
+- 50b9d76: feat: correct available providers (Discord & Twitch added)
+
 ## 0.1.14
 
 ### Patch Changes
